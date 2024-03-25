@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+    font-family: 'optima', sans-serif
+}
+
+header {
+    max-width: 96%;
+    margin: 0 auto;
+    background-color: aqua
+}
+
+header img {
+    max-height: 200px;
+    border-radius: 100%;
+    width: 200px;
+    background-color: aliceblue;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size:xx-large;
+    padding:15px;
+    line-height: 5rem;
+    border: 4px solid white;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 129);
+}
+
+nav {
+text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    line-height: 50px;
+    margin-right: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+section {
+    margin: 5em 50px;
+    padding: 50px;
+    height: 300px;
+    background-color: rgb(175, 139, 175);
+    color: white;
+}
