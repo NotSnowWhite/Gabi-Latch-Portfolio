@@ -32,6 +32,7 @@ header {
     margin: 0 auto;
     position: relative;
     border-radius: 5px;
+    border: 2px solid white;
     background-image: linear-gradient(var(--plum) 0%, var(--space) 100%), url(./images/back3.jpg); 
 }
 
@@ -45,14 +46,8 @@ header img {
 }
 
 h1 {
-    display: flex;
-    justify-content: flex-start;
     text-align: center;
-    position: relative;
-    bottom: 6em;
-    left: 150px;
     font-weight: 900;
-    width: 50px;
     font-size: xx-large;
     line-height: 4rem;
     background-color: var(--space);
@@ -74,7 +69,6 @@ li {
     margin: 0 100;
     position: relative;
     right: -4%;
-    bottom: 200px;
 
 }
 
