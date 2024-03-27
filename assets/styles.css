@@ -54,7 +54,6 @@ h1 {
     font-weight: 900;
     width: 50px;
     font-size: xx-large;
-    padding: 10px;
     line-height: 4rem;
     background-color: var(--space);
     
@@ -71,9 +70,11 @@ ul {
 li {
     display: inline;
     line-height: 50px;
-    margin-right: 20px;
+    margin-right: 100px;
+    margin: 0 100;
     position: relative;
-    bottom: 150px;
+    right: -4%;
+    bottom: 200px;
 
 }
 
