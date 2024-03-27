@@ -38,6 +38,7 @@ header {
     background-image: linear-gradient(var(--plum) 0%, var(--space) 100%), url(./images/back3.jpg); 
 }
 
+/*controls the position of the image*/
 header img {
     height: 200px;
     border-radius: 100%;
@@ -45,27 +46,29 @@ header img {
     margin: 10px auto;
 
 }
+/*makes it so that when a user hovers over the image it has a border/shadow*/
 img:hover {
     box-shadow: 1px 1px 10px 2px pink;
     transition: 0.5 ease-in-out 1s;
 
 }
+/*contols the position and size of the main header*/
 h1 {
     text-align: center;
     font-weight: 900;
-    font-size: xx-large;
+    font-size: 50px;
     line-height: 4rem;
     
 }
-
+/*centers all text in the nav*/
 nav {
     text-align: center;
 }
-
+/*removes the bullet from the tabs list*/
 ul {
     list-style-type: none;
 }
-
+/*controls the position of the tabs*/
 li {
     display: inline;
     line-height: 50px;
@@ -75,7 +78,7 @@ li {
     right: -4%;
 
 }
-
+/*controls the actual link to the tabs and removes the underline */
 a {
     text-decoration: none;
     color: white;
@@ -83,7 +86,7 @@ a {
 }
 
 main {}
-
+/*controls each section*/
 section {
     margin: 5em 50px;
     padding: 50px;
@@ -91,24 +94,27 @@ section {
     background-color: var(--plum);
     color: white;
     border: 2px solid white;
-
 }
-
+/*controls specifically the contact me section */
 .contact {
     background-color: var(--space);
     height: 100px;
     text-align: center;
 }
-
+/*controls the headers to the About Me, My Work, and Contact Me sections*/
 h2 {
     font-size: 30px;
-    line-height: 3;
+    line-height: 2.5;
+    position: relative;
+    top: -25px;
 }
-
+/*controls the text in the About Me section*/
 p {
     line-height: 2.5;
     font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: -30px;
 }
 
 /*/Media Queries*/
@@ -123,5 +129,4 @@ p {
 @media screen and (min-width: 992px) {
     flex: 0 0 30.333%;
     max-width: 30.333%;
-
 }
