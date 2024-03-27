@@ -84,15 +84,7 @@ a {
     color: white;
     font-weight: 500;
 }
-/*controls the look and position of the contact me links*/
- section li {
-    display: inline;
-    line-height: 50px;
-    margin-right: 100px;
-    margin: 0 100;
-    position: relative;
-    right: -4%;
- }
+
 /*controls each section*/
 section {
     margin: 5em 50px;
@@ -102,13 +94,24 @@ section {
     color: white;
     border: 2px solid white;
 }
+
+/*controls the look and position of the contact me links*/
+section li {
+    display: inline;
+    line-height: 50px;
+    margin-right: 100px;
+    margin: 0 100;
+    position: relative;
+    right: -24%;
+    bottom: 20px;
+ }
+
 /*controls specifically the contact me section */
 .contact {
     background-color: var(--space);
     font-size: 20px;
     height: 100px;
     align-content: center;
-    text-align: center;
     color: aqua;
     
 }
