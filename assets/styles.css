@@ -20,7 +20,7 @@
 /*Elementals*/
 
 body {
-    background-color: pink;
+    background-color: var(--space);
     font-family: 'optima', sans-serif
 }
 
@@ -33,17 +33,16 @@ header {
     position: relative;
     border: 4px solid white;
     border-radius: 5px;
-    background-image: linear-gradient(var(--grape) 0%, var(--plum) 100%)
+    background-image: linear-gradient(var(--plum) 0%, var(--space) 100%), url(./images/back3.jpg); 
 }
 
 header img {
     height: 200px;
     border-radius: 100%;
+    border: 4px solid rgb(242, 180, 211);
     width: 200px;
-    margin-top: 5px;
+    margin-top: px;
     margin: 15px auto;
-    background-color: aliceblue;
-
 }
 
 h1 {
@@ -52,6 +51,7 @@ h1 {
     font-size: xx-large;
     padding: 15px;
     line-height: 5rem;
+    background-color: var(--space);
 }
 
 nav {
@@ -83,6 +83,12 @@ section {
     height: 300px;
     background-color: rgb(175, 139, 175);
     color: white;
+}
+
+.contact {
+    background-color: var(--space);
+    height: 100px;
+    text-align: center;
 }
 
 h2 {}
