@@ -46,8 +46,14 @@ header img {
 }
 
 h1 {
+    display: flex;
+    justify-content: flex-start;
     text-align: center;
+    position: relative;
+    bottom: 6em;
+    left: 150px;
     font-weight: 900;
+    width: 50px;
     font-size: xx-large;
     padding: 10px;
     line-height: 5rem;
