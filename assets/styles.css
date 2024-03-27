@@ -31,7 +31,6 @@ header {
     max-width: 96%;
     margin: 0 auto;
     position: relative;
-    border: 4px solid white;
     border-radius: 5px;
     background-image: linear-gradient(var(--plum) 0%, var(--space) 100%), url(./images/back3.jpg); 
 }
@@ -56,8 +55,9 @@ h1 {
     width: 50px;
     font-size: xx-large;
     padding: 10px;
-    line-height: 5rem;
+    line-height: 4rem;
     background-color: var(--space);
+    
 }
 
 nav {
@@ -72,6 +72,8 @@ li {
     display: inline;
     line-height: 50px;
     margin-right: 20px;
+    position: relative;
+    bottom: 150px;
 
 }
 
