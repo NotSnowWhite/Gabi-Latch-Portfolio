@@ -1,3 +1,4 @@
+/*Universal*/
 :root {
     --space: rgb(75, 75, 129);
     --plum: rgba(232, 102, 236, 0.3);
@@ -6,15 +7,17 @@
 
 }
 
+::selection {
+    background-color: aqua;
+    color: var(--space);
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-::selection {
-    background-color: aqua;
-    color: var(--space);
-}
+/*Elementals*/
 
 body {
     background-color: pink;
@@ -30,9 +33,7 @@ header {
     position: relative;
     border: 4px solid white;
     border-radius: 5px;
-    background-image: linear-gradient(
-       var(--grape) 0%, var(--plum) 100%
-      )
+    background-image: linear-gradient(var(--grape) 0%, var(--plum) 100%)
 }
 
 header img {
@@ -48,13 +49,13 @@ header img {
 h1 {
     text-align: center;
     font-weight: 900;
-    font-size:xx-large;
-    padding:15px;
+    font-size: xx-large;
+    padding: 15px;
     line-height: 5rem;
 }
 
 nav {
-text-align: center;
+    text-align: center;
 }
 
 ul {
@@ -65,7 +66,7 @@ li {
     display: inline;
     line-height: 50px;
     margin-right: 20px;
-    
+
 }
 
 a {
@@ -74,10 +75,29 @@ a {
     font-weight: 500;
 }
 
+main {}
+
 section {
     margin: 5em 50px;
     padding: 50px;
     height: 300px;
     background-color: rgb(175, 139, 175);
     color: white;
+}
+
+h2 {}
+
+/*/Media Queries*/
+
+@media screen and (min-width:768px) {
+    flex: 0 0 50%;
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+
+@media screen and (min-width: 992px) {
+    flex: 0 0 30.333%;
+    max-width: 30.333%;
+
 }
