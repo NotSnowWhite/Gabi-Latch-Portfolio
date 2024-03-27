@@ -47,7 +47,7 @@ header img {
 }
 img:hover {
     box-shadow: 1px 1px 10px 2px pink;
-    transition: 0.5 ease-in-out;
+    transition: 0.5 ease-in-out 1s;
 
 }
 h1 {
@@ -100,7 +100,16 @@ section {
     text-align: center;
 }
 
-h2 {}
+h2 {
+    font-size: 30px;
+    line-height: 3;
+}
+
+p {
+    line-height: 2.5;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 /*/Media Queries*/
 
