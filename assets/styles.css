@@ -41,15 +41,15 @@ header img {
     border-radius: 100%;
     border: 4px solid rgb(242, 180, 211);
     width: 200px;
-    margin-top: px;
-    margin: 15px auto;
+    margin: 10px auto;
+
 }
 
 h1 {
     text-align: center;
     font-weight: 900;
     font-size: xx-large;
-    padding: 15px;
+    padding: 10px;
     line-height: 5rem;
     background-color: var(--space);
 }
