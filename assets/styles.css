@@ -69,7 +69,7 @@ ul {
     list-style-type: none;
 }
 /*controls the position of the tabs*/
-li {
+nav li {
     display: inline;
     line-height: 50px;
     margin-right: 100px;
@@ -84,8 +84,15 @@ a {
     color: white;
     font-weight: 500;
 }
-
-main {}
+/*controls the look and position of the contact me links*/
+ section li {
+    display: inline;
+    line-height: 50px;
+    margin-right: 100px;
+    margin: 0 100;
+    position: relative;
+    right: -4%;
+ }
 /*controls each section*/
 section {
     margin: 5em 50px;
@@ -98,9 +105,14 @@ section {
 /*controls specifically the contact me section */
 .contact {
     background-color: var(--space);
+    font-size: 20px;
     height: 100px;
+    align-content: center;
     text-align: center;
+    color: aqua;
+    
 }
+
 /*controls the headers to the About Me, My Work, and Contact Me sections*/
 h2 {
     font-size: 30px;
