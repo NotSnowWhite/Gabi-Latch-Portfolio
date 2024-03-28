@@ -47,19 +47,30 @@ header > img {
 
 }
 
-
+/*controls the sizes and borders of the my work image links*/
 a > img {
     height: auto;
-    border-radius: 30%;
+    border-radius: 12%;
     width: 300px;
     margin: 10px auto;
 }
+
+/*makes it so the first image in My Work section is larger than the rest*/
 
 div > a:first-child img {
     width: 500px;
     height: auto;
 }
 
+div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+}
+div ul li {
+}
 /*makes it so that when a user hovers over the image it has a border/shadow*/
 img:hover {
     box-shadow: 1px 1px 10px 2px pink;
@@ -111,6 +122,7 @@ section {
     background-color: var(--plum);
     color: white;
     border: 2px solid white;
+    
 }
 
 /*controls the look and position of the contact me links*/
@@ -118,12 +130,11 @@ section li {
     display: inline-block;
     line-height: 50px;
     margin-right: 10%;
-    position: ;
+    position: relative;
     overflow: hidden;
-    text-align: center;
 }
 
-section li a {
+section ul {
     text-align: center;
 }
 
@@ -134,6 +145,14 @@ section li a {
     height: 80px;
 
 }
+
+/*controls specifically the my work section */
+
+.my-work {
+    height: 600px;
+
+}
+
 
 /*controls the headers to the About Me, My Work, and Contact Me sections*/
 h2 {
