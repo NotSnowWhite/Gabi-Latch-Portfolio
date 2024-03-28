@@ -49,14 +49,15 @@ header > img {
 
 
 a > img {
-    height: 200px;
-    border-radius: 100%;
-    width: 200px;
+    height: auto;
+    border-radius: 30%;
+    width: 300px;
     margin: 10px auto;
 }
 
-ul a:first-child {
-    width: 400px;
+div > a:first-child img {
+    width: 500px;
+    height: auto;
 }
 
 /*makes it so that when a user hovers over the image it has a border/shadow*/
