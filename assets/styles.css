@@ -35,7 +35,7 @@ header {
     position: relative;
     border-radius: 5px;
     border: 2px solid white;
-    background-image: linear-gradient(var(--plum) 0%, var(--space) 100%), url(./images/back3.jpg); 
+    background-image: linear-gradient(var(--plum) 0%, var(--space) 100%), url(./images/back3.jpg);
 }
 
 /*controls the position of the image*/
@@ -46,31 +46,36 @@ header img {
     margin: 10px auto;
 
 }
+
 /*makes it so that when a user hovers over the image it has a border/shadow*/
 img:hover {
     box-shadow: 1px 1px 10px 2px pink;
     transition: 0.5 ease-in-out 1s;
 
 }
+
 /*contols the position and size of the main header*/
 h1 {
     text-align: center;
     font-weight: 900;
     font-size: 50px;
     line-height: 4rem;
-    
+
 }
+
 /*centers all text in the nav*/
 nav {
     text-align: center;
 }
+
 /*removes the bullet from the tabs list*/
 ul {
     list-style-type: none;
 }
+
 /*controls the position of the tabs*/
 nav li {
-    display: inline;
+    display: inline-block;
     line-height: 50px;
     margin-right: 100px;
     margin: 0 100;
@@ -78,6 +83,7 @@ nav li {
     right: -4%;
 
 }
+
 /*controls the actual link to the tabs and removes the underline */
 a {
     text-decoration: none;
@@ -93,7 +99,7 @@ section {
     background-color: var(--plum);
     color: white;
     border: 2px solid white;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 /*controls the look and position of the contact me links*/
@@ -105,7 +111,7 @@ section li {
     position: relative;
     right: -24%;
     bottom: 20px;
- }
+}
 
 /*controls specifically the contact me section */
 .contact {
@@ -113,38 +119,44 @@ section li {
     font-size: 20px;
     height: 50px;
     align-content: center;
-    
+
 }
 
 /*controls the headers to the About Me, My Work, and Contact Me sections*/
 h2 {
     font-size: 30px;
     line-height: 2.5;
-    position: relative;
 }
+
 /*controls the text in the About Me section*/
 p {
     display: flex;
     flex-wrap: wrap;
     line-height: 2.5;
     font-size: 18px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     top: -30px;
 }
 
 /*/Media Queries*/
+    @media screen and (max-width: 768px) {
+        body {
+            flex: 0 1 100%;
+            max-width: 100%;
+        }
 
-@media screen and (min-width:768px) {
+        p {
+            overflow: auto;
+            height: 200px;
+        }
+    }
+
+
+@media screen and (max-width: 992px) {
     body {
-    flex: 0 0 100%;
-    max-width: 100%;
-    flex-grow: 1;}
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+
 }
-
-
-@media screen and (min-width: 992px) {
-    body {
-    flex: 0 0 100%;
-    max-width: 100%;
-}}
