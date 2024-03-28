@@ -25,6 +25,6 @@ N/A
 ## Acknowledgements
 N/A
 
-[The Professional Life of Gabi L]() 
+[The Professional Life of Gabi L](https://notsnowwhite.github.io/Gabi-Latch-Portfolio/) 
 
 ![Screenshot of my portfolio homepage](./assets/images/portfolio-ss.png)
