@@ -39,12 +39,24 @@ header {
 }
 
 /*controls the position of the image*/
-header img {
+header > img {
     height: 200px;
     border-radius: 100%;
     width: 200px;
     margin: 10px auto;
 
+}
+
+
+a > img {
+    height: 200px;
+    border-radius: 100%;
+    width: 200px;
+    margin: 10px auto;
+}
+
+ul a:first-child {
+    width: 400px;
 }
 
 /*makes it so that when a user hovers over the image it has a border/shadow*/
@@ -165,7 +177,7 @@ p {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 365px) {
     body {
         flex: 0 1 100%;
         max-width: 100%;
